@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <title>Quiz | Você consegue acertar qual é o método do Javascript pelo título em português de Portugal?</title>
+</head>
+
+<body>
+    <div class = "intro py-3 bg-primary text-center">
+        <div class = "container">
+            <h2 class ="text-light display-3 my-4">Quiz JS</h2> 
+        </div>
+    </div>
+
+<div class = "quiz py-4 bg-dark">
+    <div class = "container">
+        <h2 class="my-5 text-white">Você consegue acertar para que serve esses métodos JS?</h2>
+        
+        <form class="quiz-form text-light"> <!--formulário -->
+            
+            <!--início da primeira questão -->
+            <div class = "my-5">
+                <p class="lead font-weight-normal">1. O método toString( ):</p>
+                
+                <!--alternativa 1 da primeira questão -->
+                <div class="form-check my-2 text-white-50">
+                    <label class="form-check-label">
+                        <input type="radio" name="inputQuestion1" value="A" checked>
+                        Cria um array de strings a partir de uma string
+                    </label>
+                </div>
+                
+                <!--alternativa 2 da primeira questão -->
+                <div class="form-check my-2 text-white-50">
+                    <label class="form-check-label">
+                        <input type="radio" name="inputQuestion1" value="B">
+                        Converte um array em uma string de valores separados por vírgula
+                    </label>
+                </div>
+            </div>
+            <!--fim da primeira questão -->            
+            
+            <!--início da segunda questão -->
+            <div class = "my-5">
+                <p class="lead font-weight-normal">2. O método push( ):</p>
+                
+                <!--alternativa 1 da segunda questão -->
+                <div class="form-check my-2 text-white-50">
+                    <label class="form-check-label">
+                        <input type="radio" name="inputQuestion2" value="A" checked>
+                        Adiciona um novo elemento no início do array
+                    </label>
+                </div>
+                
+                <!--alternativa 2 da segunda questão -->
+                <div class="form-check my-2 text-white-50">
+                    <label class="form-check-label">
+                        <input type="radio" name="inputQuestion2" value="B">
+                        Adiciona um novo elemento no final do array
+                    </label>
+                </div>
+            </div>
+            <!--fim da segunda questão -->
+
+            
+            <!--início da terceira questão -->
+            <div class = "my-5">
+                <p class="lead font-weight-normal">3. O método pop( )</p>
+                
+                <!--alternativa 1 da terceira questão -->
+                <div class="form-check my-2 text-white-50">
+                    <label class="form-check-label">
+                        <input type="radio" name="inputQuestion3" value="A" checked>
+                        Remove o primeiro elemento do array
+                    </label>
+                </div>
+                
+                <!--alternativa 2 da terceira questão -->
+                <div class="form-check my-2 text-white-50">
+                    <label class="form-check-label">
+                        <input type="radio" name="inputQuestion3" value="B">
+                        Remove o último elemento do array
+                    </label>
+                </div>
+            </div>
+            <!--fim da terceira questão -->            
+            
+            <!--início da quarta questão -->
+            <div class = "my-5">
+                <p class="lead font-weight-normal">4. O método concat( )</p>
+                
+                <!--alternativa 1 da quarta questão -->
+                <div class="form-check my-2 text-white-50">
+                    <label class="form-check-label">
+                        <input type="radio" name="inputQuestion4" value="A" checked>
+                        Junta dois ou mais arrays e altera o primeiro array
+                    </label>
+                </div>
+                
+                <!--alternativa 2 da quarta questão -->
+                <div class="form-check my-2 text-white-50">
+                    <label class="form-check-label">
+                        <input type="radio" name="inputQuestion4" value="B">
+                        Junta dois ou mais arrays e retorna um novo array sem alterar os arrays originais
+                    </label>
+                </div>
+                <!--fim da quarta questão -->
+            </div>
+
+            <!--botão enviar -->
+            <div class="text-center">
+                <button class="btn bg-primary text-light">Enviar</button>
+            </div>
+
+            <!-- exibir a pontuação-->
+            <div class = "text-center">
+            <p class = "showScore"></p>
+            </div>
+
+        </form>
+    </div>
+</div>
+
+<script src="app.js"></script>
+
+</body>
+</html>
